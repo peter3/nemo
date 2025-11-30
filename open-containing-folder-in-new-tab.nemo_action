@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Open containing folder in new tab
+Comment=Opens a file parent folder in new tab
+Exec=nemo --existing-window --tabs %F
+Selection=s
+Extensions=nodirs;
+Terminal=false
+Icon-Name=folder-new
